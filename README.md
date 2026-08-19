@@ -1,8 +1,3 @@
-دلیل اینکه الان متن‌ها و علامت‌ها را این‌گونه می‌بینید این است که در بالای صفحه تب **Code** انتخاب شده است. اگر روی دکمه **Preview** (سمت چپ دکمه Code) کلیک کنید یا به صفحه اصلی ریپازیتوری برگردید، گیت‌هاب تمام این کدها را به جدول‌ها، نشان‌ها و ظاهر گرافیکی تبدیل می‌کند.
-
-یک نسخه تمیز، دقیق و استانداردسازی‌شده از `README.md` که بدون هیچ خطای فاصله‌گذاری یا به‌هم‌ریختگی رندر می‌شود:
-
-```markdown
 <div align="center">
 
 # ⚡ Tech Career & Skill Intelligence
@@ -70,23 +65,15 @@ tech-career-intelligence/
 │   └── skill_association_rules.csv
 └── README.md                   # System documentation
 
-```
+🚀 Quick Start (Local Setup)
+Clone the repository:
 
----
-
-## 🚀 Quick Start (Local Setup)
-
-1. **Clone the repository:**
-
-```bash
+Bash
 git clone [https://github.com/meh5ii/tech-career-intelligence.git](https://github.com/meh5ii/tech-career-intelligence.git)
 cd tech-career-intelligence
+Create and activate a virtual environment:
 
-```
-
-2. **Create and activate a virtual environment:**
-
-```bash
+Bash
 # Windows
 python -m venv venv
 venv\Scripts\activate
@@ -94,39 +81,19 @@ venv\Scripts\activate
 # macOS / Linux
 python3 -m venv venv
 source venv/bin/activate
+Install dependencies:
 
-```
-
-3. **Install dependencies:**
-
-```bash
+Bash
 pip install -r requirements.txt
+Launch the dashboard:
 
-```
-
-4. **Launch the dashboard:**
-
-```bash
+Bash
 streamlit run app.py
+👤 Author
+Mehdi Bagheri
 
-```
+Undergraduate Thesis Project in Computer Science
 
----
+GitHub: @meh5ii
 
-## 👤 Author
-
-* **Mehdi Bagheri**
-* Undergraduate Thesis Project in Computer Science
-* **GitHub:** [@meh5ii](https://www.google.com/search?q=https://github.com/meh5ii)
-* **Live Demo:** [Tech Career Intelligence](https://tech-career-intelligence-7hna5me6mzpnwifmub2cbn.streamlit.app/)
-
-
-
-```
-
-**روش اعمال:**
-1. روی آیکون مداد (Edit) در بالای همان صفحه کلیک کنید.
-2. کل متن داخل فایل را با کلیدهای `Ctrl + A` انتخاب و پاک کنید.
-3. کد بالا را داخل آن پیست کرده و دکمه سبز **Commit changes** را بزنید.
-
-```
+Live Demo: Tech Career Intelligence
