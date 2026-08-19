@@ -1,5 +1,3 @@
-کل محتوای کامل، یکپارچه و استاندارد فایل `README.md` به زبان انگلیسی:
-
 ```markdown
 <div align="center">
 
@@ -77,8 +75,7 @@ tech-career-intelligence/
 1. **Clone the repository:**
 
 ```bash
-git clone [https://github.com/meh5ii/tech-career-intelligence.git](https://github.com/meh5ii/tech-career-intelligence.git)
-cd tech-career-intelligence
+git clone https://github.com/meh5ii/tech-career-intelligence.git
 
 ```
 
