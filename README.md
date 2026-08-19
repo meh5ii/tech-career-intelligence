@@ -1,3 +1,4 @@
+
 ```markdown
 <div align="center">
 
@@ -75,7 +76,8 @@ tech-career-intelligence/
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/meh5ii/tech-career-intelligence.git
+git clone [https://github.com/meh5ii/tech-career-intelligence.git](https://github.com/meh5ii/tech-career-intelligence.git)
+cd tech-career-intelligence
 
 ```
 
@@ -116,7 +118,5 @@ streamlit run app.py
 * **Live Demo:** [Tech Career Intelligence](https://tech-career-intelligence-7hna5me6mzpnwifmub2cbn.streamlit.app/)
 
 
-
-```
 
 ```
