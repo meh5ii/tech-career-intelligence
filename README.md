@@ -1,7 +1,7 @@
 <div align="center">
 
 # ⚡ Tech Career & Skill Intelligence
-### End-to-End Technology Market Analytics, AI Resilience & Career Recommendation Engine
+### Data-Driven Tech Market Analytics, AI Resilience Index & Career Recommendation Engine
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://tech-career-intelligence-7hna5me6mzpnwifmub2cbn.streamlit.app/)
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
@@ -11,56 +11,56 @@
 
 <br/>
 
-**[🌐 مشاهده داشبورد زنده (Live Demo)](https://tech-career-intelligence-7hna5me6mzpnwifmub2cbn.streamlit.app/)**
+**[🌐 Launch Live Web Application](https://tech-career-intelligence-7hna5me6mzpnwifmub2cbn.streamlit.app/)**
 
 </div>
 
 ---
 
-## 📌 درباره پروژه (About The Project)
+## 📌 Overview
 
-سامانه **Tech Career & Skill Intelligence** یک پلتفرم جامع، داده‌محور و تعاملی است که با تحلیل کلان داده‌های دنیای تکنولوژی (شامل بیش از **۳۲,۰۰۰ پروفایل توسعه‌دهنده از Stack Overflow**، **فرصت‌های شغلی LinkedIn** و داده‌های زمانی **Google Trends**)، به مهندسان نرم‌افزار و دانشمندان داده کمک می‌کند تا وضعیت بازار کار، ارزش اقتصادی تخصص‌ها، میزان پایداری در برابر هوش مصنوعی و مسیر توسعه فردی خود را بسنجند.
+**Tech Career & Skill Intelligence** is an end-to-end analytical platform designed to provide data-driven insights for software engineers and data professionals. 
+
+By aggregating and mining **32,000+ developer profiles from Stack Overflow**, real-world **LinkedIn job postings**, and multi-year **Google Trends** time-series data, the system evaluates career readiness, predicts skill market longevity, benchmarks compensation, and delivers personalized skill acquisition roadmaps.
 
 ---
 
-## ✨ ویژگی‌های کلیدی (Core Features)
+## ✨ Key Capabilities
 
-این داشبورد دارای **۸ ماژول و تب اختصاصی** با طراحی مدرن Bento-Grid است:
-
-| تب / ماژول | عملکرد و قابلیت‌ها |
+| Module | Core Functionality |
 | :--- | :--- |
-| **✦ Stack Recommender** | پیشنهاد مهارت‌های مکمل بر اساس قوانین انجمنی (*Association Rules*) با سنجش دقیق ضریب نفوذ (*Lift*) و ضریب اطمینان (*Confidence*). |
-| **↗ Future Outlook** | پیش‌بینی روند تقاضای تکنولوژی‌ها تا ۳ سال آینده با مدل‌سازی رگرسیون زمانی و ارزیابی طول عمر مفید مهارت‌ها (*Half-life*). |
-| **◈ Market Valuation** | تحلیل اقتصادی ارزش بازار، توزیع درآمد دلاری مهارت‌ها و ماشین‌حساب محاسبه سودافزوده ترکیب تکنولوژی‌ها (*Stack Synergy*). |
-| **⇄ 1v1 Tech Arena** | مقایسه رودرروی فریم‌ورک‌ها و زبان‌ها در ۶ بُعد معماری (درآمد، مصونیت هوش مصنوعی، تقاضای کار، سهولت یادگیری، ریموت و بلوغ). |
-| **⎔ Track Roadmaps & Vault** | مسیر یادگیری گام‌به‌گام برای ۶ تخصص اصلی به همراه تخمین ساعت مطالعه مورد نیاز و کتابخانه لینک‌های مرجع (*Official Vault*). |
-| **📄 Resume ATS & Gap Hunter** | پارسر رزومه (PDF/متن) و بررسی انطباق با نیازمندی‌های شغلی (*ATS Compliance*) به همراه شناسایی شکاف‌های فنی. |
-| **🔀 Career Pivot Simulator** | شبیه‌ساز تغییر مسیر شغلی میان حوزه‌ها با برآورد زمان انتقال، میزان انتقال‌پذیری دانش و تغییرات حقوق دریافتی. |
-| **⟐ Live Jobs Radar** | رادار و اسکرپر هوشمند آگهی‌های شغلی و فریلنسری (LinkedIn, RemoteOK, Jobinja, Jobvision, Karlancer, Quera). |
+| **✦ Stack Recommender** | Data-mining recommendation vector using **Association Rules** (Lift, Confidence, Support) to suggest high-synergy adjacent skills. |
+| **↗ Future Outlook** | Multi-horizon time-series forecasting (3-year linear trajectories & 4-month velocity pulse) combined with **Skill Half-Life** modeling. |
+| **◈ Market Valuation** | Normalized tech stack compensation benchmarks and dynamic synergy premium calculator. |
+| **⇄ 1v1 Tech Arena** | 6-axis head-to-head architectural radar benchmarking (Compensation, AI Shield, Demand, Learning Curve, Remote %, Maturity). |
+| **⎔ Track Roadmaps & Vault** | Milestone-driven phase breakdown for 6 core engineering disciplines with curated official documentation and study hour estimates. |
+| **📄 Resume & ATS Gap Hunter** | Automated PDF/Text ATS parser comparing candidate profiles against live target job descriptions to identify missing keywords. |
+| **🔀 Career Pivot Simulator** | Discipline-to-discipline transition modeling estimating timeline, transferable stack overlap, and salary delta. |
+| **⟐ Live Jobs Radar** | Multi-threaded real-time job crawler aggregating live openings across remote and global job boards ranked by stack compatibility. |
 
 ---
 
-## 🛠️ تکنولوژی‌ها و ابزارها (Tech Stack)
+## 🛠️ Technology Stack
 
-* **Language:** Python 3.10+
-* **Frontend / Framework:** Streamlit, Custom HTML5 & Glassmorphic CSS Engine
-* **Data Processing & Analytics:** Pandas, NumPy, Scikit-Learn, MLxtend
-* **Data Visualization:** Plotly Graph Objects & Express
-* **Web Scraping & Extraction:** Selenium, BeautifulSoup4, PyPDF
+* **Core Language:** Python 3.10+
+* **Dashboard & UI:** Streamlit, Custom Responsive CSS (Bento Grid & Glassmorphism)
+* **Data Mining & Analytics:** Pandas, NumPy, Scikit-Learn, MLxtend
+* **Data Visualization:** Plotly Graph Objects & Plotly Express
+* **Web Scraping & Parsing:** Selenium, BeautifulSoup4, PyPDF
 
 ---
 
-## 📁 ساختار پروژه (Project Structure)
+## 📁 Repository Architecture
 
 ```text
 tech-career-intelligence/
-├── app.py                      # فایل اصلی داشبورد و رابط کاربری Streamlit
-├── job_scraper.py              # ماژول خزشگر وب و اسکرپینگ فرصت‌های شغلی زنده
-├── requirements.txt            # پکیج‌ها و وابستگی‌های پروژه
-├── images.jpg                  # بنر و فایل‌های تصویری
-├── data/                       # پایگاه داده پاک‌سازی‌شده و خروجی‌های تحلیلی
+├── app.py                      # Main Streamlit dashboard application
+├── job_scraper.py              # Multi-platform live job crawler
+├── requirements.txt            # Project dependencies & libraries
+├── images.jpg                  # Application assets & branding
+├── data/                       # Curated datasets & serialized mining outputs
 │   ├── clean_google_trends.csv
 │   ├── clean_linkedin_jobs.csv
 │   ├── clean_stackoverflow_skills.csv
 │   └── skill_association_rules.csv
-└── README.md                   # مستندات پروژه
+└── README.md                   # System documentation
