@@ -1,3 +1,6 @@
+کل محتوای کامل، یکپارچه و استاندارد فایل `README.md` به زبان انگلیسی:
+
+```markdown
 <div align="center">
 
 # ⚡ Tech Career & Skill Intelligence
@@ -19,9 +22,9 @@
 
 ## 📌 Overview
 
-**Tech Career & Skill Intelligence** is an end-to-end analytical platform designed to provide data-driven insights for software engineers and data professionals. 
+**Tech Career & Skill Intelligence** is an end-to-end analytical platform designed to provide data-driven career navigation for software engineers and data professionals.
 
-By aggregating and mining **32,000+ developer profiles from Stack Overflow**, real-world **LinkedIn job postings**, and multi-year **Google Trends** time-series data, the system evaluates career readiness, predicts skill market longevity, benchmarks compensation, and delivers personalized skill acquisition roadmaps.
+By mining and analyzing **32,000+ developer profiles from Stack Overflow**, real-world **LinkedIn job postings**, and multi-year **Google Trends** time-series data, the system evaluates career readiness, predicts skill market longevity, benchmarks compensation, and delivers personalized skill acquisition roadmaps.
 
 ---
 
@@ -64,3 +67,59 @@ tech-career-intelligence/
 │   ├── clean_stackoverflow_skills.csv
 │   └── skill_association_rules.csv
 └── README.md                   # System documentation
+
+```
+
+---
+
+## 🚀 Quick Start (Local Setup)
+
+1. **Clone the repository:**
+
+```bash
+git clone [https://github.com/meh5ii/tech-career-intelligence.git](https://github.com/meh5ii/tech-career-intelligence.git)
+cd tech-career-intelligence
+
+```
+
+2. **Create and activate a virtual environment:**
+
+```bash
+# Windows
+python -m venv venv
+venv\Scripts\activate
+
+# macOS / Linux
+python3 -m venv venv
+source venv/bin/activate
+
+```
+
+3. **Install dependencies:**
+
+```bash
+pip install -r requirements.txt
+
+```
+
+4. **Launch the dashboard:**
+
+```bash
+streamlit run app.py
+
+```
+
+---
+
+## 👤 Author
+
+* **Mehdi Bagheri**
+* Undergraduate Thesis Project in Computer Science
+* **GitHub:** [@meh5ii](https://www.google.com/search?q=https://github.com/meh5ii)
+* **Live Demo:** [Tech Career Intelligence](https://tech-career-intelligence-7hna5me6mzpnwifmub2cbn.streamlit.app/)
+
+
+
+```
+
+```
