@@ -64,6 +64,7 @@ tech-career-intelligence/
 │   ├── clean_stackoverflow_skills.csv
 │   └── skill_association_rules.csv
 └── README.md                   # System documentation
+---
 
 🚀 Quick Start (Local Setup)
 Clone the repository:
