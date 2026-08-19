@@ -104,7 +104,3 @@ streamlit run app.py
 * Undergraduate Thesis Project in Computer Science
 * **GitHub:** [@meh5ii](https://www.google.com/search?q=https://github.com/meh5ii)
 * **Live Demo:** [Tech Career Intelligence](https://tech-career-intelligence-7hna5me6mzpnwifmub2cbn.streamlit.app/)
-
-1. روی آیکون مداد (Edit) در بالای فایل README کلیک کنید.
-2. کل متن قبلی را با `Ctrl + A` انتخاب و حذف (`Delete`) کنید.
-3. متن بالا را پیست کرده و روی دکمه سبز **Commit changes** بزنید.
